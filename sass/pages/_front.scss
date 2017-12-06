@@ -1,1 +1,70 @@
 /* Front page */
+
+/* Header */
+.header {
+	width: 100%;
+	height: 40px;
+	background: #333;
+
+	.top {
+		width: 1226px;
+		height: 40px;
+		line-height: 40px;
+        margin: 0 auto;
+		.left {
+			ul li {
+   				float: left;
+   				font-size: 1.2rem;
+   				color: #ccc;
+
+   				a {
+   					display: block;
+   					padding: 0 8px;
+   					font-size: 1.2rem;
+   					color: #b0b0b0;
+   					&:hover {
+   						color: #fff;
+   					}
+   				}
+			}
+		}
+
+		.right {
+			ul li {
+				float: left;
+				font-size: 1.2rem;
+				color: #ccc;
+
+				a {
+					display: block;
+					padding: 0 8px;
+					font-size: 1.2rem;
+					color: #b0b0b0;
+
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+
+			.gouwuche {
+				margin: 0 20px;
+				background: #424242;
+				width: 120px;
+				text-align: center;
+				font-size: 1.2rem;
+				cursor: pointer;
+				background: #ff6700;
+				color: #fff;
+				&:hover {
+					color: #000;
+					background: #666;
+				}
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
