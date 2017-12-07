@@ -16,6 +16,17 @@
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
+	"\/images\/icons\/icon-mi-logo.png": {
+		"ft": 32768,
+		"iS": 1170,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon-mi-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
