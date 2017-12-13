@@ -2754,6 +2754,12 @@ a:hover {
   -moz-osx-font-smoothing: grayscale;
   padding-left: 20px; }
 
+.children-col-3 {
+  width: 800px; }
+
+.children-col-4 {
+  width: 992px; }
+
 /* Typography styles */
 /* Header */
 /* Footer */
@@ -2852,6 +2858,78 @@ a:hover {
       padding: 0 0 0 150px;
       list-style-type: none;
       font-size: 1.6rem; }
+      .site-header .header-nav .nav-list .nav-category {
+        position: relative;
+        float: left;
+        width: 127px;
+        padding-right: 15px; }
+        .site-header .header-nav .nav-list .nav-category .site-category {
+          position: absolute;
+          top: 100px;
+          left: -212px;
+          z-index: 21;
+          width: 234px;
+          height: 460px;
+          font-size: 1.4rem; }
+          .site-header .header-nav .nav-list .nav-category .site-category .site-category-list {
+            height: 460px;
+            border: 0;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);
+            margin: 0;
+            padding: 20px 0;
+            list-style-type: none; }
+            .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .title {
+              color: #fff;
+              position: relative;
+              display: block;
+              padding-left: 30px;
+              height: 40px;
+              line-height: 42px; }
+            .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children {
+              display: none;
+              position: absolute;
+              left: 234px;
+              top: 0;
+              z-index: 24;
+              height: 458px;
+              border: 1px solid #e0e0e0;
+              border-left: 0;
+              background: #fff;
+              -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+                      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18); }
+              .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list {
+                height: 458px;
+                margin: 0;
+                padding: 2px 0;
+                list-style-type: none; }
+                .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list li {
+                  position: relative;
+                  float: left;
+                  width: 265px;
+                  height: 76px; }
+                .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list img {
+                  width: 40px;
+                  height: 40px; }
+                .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list .link {
+                  display: block;
+                  padding: 18px 20px;
+                  line-height: 40px;
+                  color: #333; }
+                .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list .thumb {
+                  margin-right: 12px;
+                  vertical-align: middle; }
+                .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list .text {
+                  line-height: 40px; }
+              .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children .children-list-col {
+                float: left;
+                width: 265px; }
+            .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .category-item a:hover {
+              background: #ff6700; }
+            .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .category-item a:hover + .children {
+              display: block; }
+            .site-header .header-nav .nav-list .nav-category .site-category .site-category-list .children:hover {
+              display: block; }
       .site-header .header-nav .nav-list .nav-item {
         float: left;
         margin: 0 10px; }
@@ -2893,3 +2971,92 @@ a:hover {
       .site-header .header-search .search-form .search-btn:hover {
         background: #ff6700;
         color: #fff; }
+
+.home-hero {
+  position: relative;
+  z-index: 10;
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px; }
+  .home-hero .slide {
+    display: none; }
+  .home-hero .home-hero-slider {
+    /* Position the "next button" to the right */
+    /* On hover, add a black background color with a little bit see-through */
+    /* The dots/bullets/indicators */
+    /* Fading animation */
+    /* On smaller screens, decrease text size */ }
+    .home-hero .home-hero-slider .prev {
+      left: 240px;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 1.8rem;
+      -webkit-transition: 0.6s ease;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0; }
+    .home-hero .home-hero-slider .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 1.8rem;
+      -webkit-transition: 0.6s ease;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0; }
+    .home-hero .home-hero-slider .next {
+      right: 0;
+      border-radius: 3px 0 0 3px; }
+    .home-hero .home-hero-slider .prev:hover, .home-hero .home-hero-slider .next:hover {
+      background-color: rgba(0, 0, 0, 0.8); }
+    .home-hero .home-hero-slider .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+    @media only screen and (max-width: 300px) {
+      .home-hero .home-hero-slider .prev, .home-hero .home-hero-slider .next, .home-hero .home-hero-slider .text {
+        font-size: 11px; } }
+  .home-hero .ui-controls .ui-pager {
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    left: auto;
+    right: 30px;
+    width: 400px;
+    text-align: right;
+    font-size: 1.2rem;
+    color: #666;
+    z-index: 999; }
+  .home-hero .ui-controls .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease; }
+  .home-hero .ui-controls .active, .home-hero .ui-controls .dot:hover {
+    background-color: #717171; }

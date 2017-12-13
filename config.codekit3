@@ -975,9 +975,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/main.min.js",
+		"oAP": "\/scripts\/min\/main.min.js",
 		"oF": 2,
-		"sC": 3,
+		"sC": 2,
 		"tS": 0
 		},
 	"\/scripts\/min\/main.min.js": {
@@ -985,9 +985,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/min\/main.min.min.js",
+		"oAP": "\/scripts\/min\/min\/main.min.min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 2,
 		"tS": 0
 		},
 	"\/scripts\/vendor\/jquery.min.js": {
@@ -995,9 +995,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/vendor\/jquery.min.min.js",
+		"oAP": "\/scripts\/vendor\/min\/jquery.min.min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 2,
 		"tS": 0
 		},
 	"\/scripts\/vendor\/modernizr.min.js": {
@@ -1005,9 +1005,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/vendor\/modernizr.min.min.js",
+		"oAP": "\/scripts\/vendor\/min\/modernizr.min.min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 2,
 		"tS": 0
 		},
 	"\/scripts\/vendor\/touche.min.js": {
@@ -1015,9 +1015,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/vendor\/touche.min.min.js",
+		"oAP": "\/scripts\/vendor\/min\/touche.min.min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 2,
 		"tS": 0
 		},
 	"\/stylesheets\/main.css": {
@@ -2854,10 +2854,10 @@
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 2,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
