@@ -304,7 +304,7 @@
         font-size: 1.2rem;
         text-align: center;
         background: #5f5750;
-        height: 169px; }
+        height: 170px; }
         .home-hero .home-hero-sub .span4 .home-channel-list li {
           position: relative;
           float: left;
@@ -343,6 +343,20 @@
           margin-bottom: 4px;
           font-size: 2.4rem;
           line-height: 24px; }
+    .home-hero .home-hero-sub .span16 {
+      width: 978px; }
+      .home-hero .home-hero-sub .span16 .home-promo-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .home-hero .home-hero-sub .span16 .home-promo-list li {
+          float: left;
+          width: 316px;
+          height: 170px;
+          margin-left: 15px;
+          transition: box-shadow .2s linear; }
+        .home-hero .home-hero-sub .span16 .home-promo-list li.first {
+          margin-left: 0; }
   .home-hero .row {
     margin-left: -14px; }
 

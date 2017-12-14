@@ -427,7 +427,7 @@
 					font-size: 1.2rem;
 					text-align: center;
 					background: #5f5750;
-					height: 169px;
+					height: 170px;
 					li {
 						position: relative;
 						float: left;
@@ -484,8 +484,27 @@
 					}
 				}
 			}
+
+			.span16 {
+				width: 978px;
+				.home-promo-list {
+					margin: 0;
+					padding: 0;
+					list-style-type: none;
+					li {
+						float: left;
+						width: 316px;
+						height: 170px;
+						margin-left: 15px;
+						transition: box-shadow .2s linear;
+					}
+					li.first {
+						margin-left: 0;
+					}
+				}
+			}
 		}
-		.row {
+		.row1 {
 			margin-left: -14px;
 
 		}

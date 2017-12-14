@@ -3080,7 +3080,7 @@ a:hover {
         font-size: 1.2rem;
         text-align: center;
         background: #5f5750;
-        height: 169px; }
+        height: 170px; }
         .home-hero .home-hero-sub .span4 .home-channel-list li {
           position: relative;
           float: left;
@@ -3120,5 +3120,22 @@ a:hover {
           margin-bottom: 4px;
           font-size: 2.4rem;
           line-height: 24px; }
-  .home-hero .row {
+    .home-hero .home-hero-sub .span16 {
+      width: 978px; }
+      .home-hero .home-hero-sub .span16 .home-promo-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .home-hero .home-hero-sub .span16 .home-promo-list li {
+          float: left;
+          width: 316px;
+          height: 170px;
+          margin-left: 15px;
+          -webkit-transition: -webkit-box-shadow .2s linear;
+          transition: -webkit-box-shadow .2s linear;
+          transition: box-shadow .2s linear;
+          transition: box-shadow .2s linear, -webkit-box-shadow .2s linear; }
+        .home-hero .home-hero-sub .span16 .home-promo-list li.first {
+          margin-left: 0; }
+  .home-hero .row1 {
     margin-left: -14px; }
