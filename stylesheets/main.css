@@ -3139,3 +3139,133 @@ a:hover {
           margin-left: 0; }
   .home-hero .row1 {
     margin-left: -14px; }
+  .home-hero .row1:before {
+    content: " ";
+    display: table; }
+  .home-hero .row1:after {
+    clear: both; }
+  .home-hero .row1:before, .home-hero .row1:after {
+    content: " ";
+    display: table; }
+  .home-hero .home-star-goods .xm-plain-box .box-hd {
+    position: relative;
+    height: 58px; }
+    .home-hero .home-star-goods .xm-plain-box .box-hd .title {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: 200;
+      line-height: 58px;
+      color: #333; }
+    .home-hero .home-star-goods .xm-plain-box .box-hd .more {
+      position: absolute;
+      right: 0;
+      top: 24px; }
+      .home-hero .home-star-goods .xm-plain-box .box-hd .more .xm-controls .control {
+        display: inline-block;
+        text-align: center;
+        color: #b0b0b0;
+        -webkit-transition: color .5s;
+        transition: color .5s; }
+      .home-hero .home-star-goods .xm-plain-box .box-hd .more .xm-controls-line-small .control {
+        width: 36px;
+        height: 24px;
+        padding: 3px 5px;
+        border: 1px solid #e0e0e0;
+        font-size: 16px;
+        line-height: 16px; }
+  .home-hero .home-star-goods .xm-plain-box .box-bd {
+    position: relative;
+    width: 1226px;
+    padding-bottom: 40px; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .xm-carousel-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 1240px;
+      height: 340px; }
+      .home-hero .home-star-goods .xm-plain-box .box-bd .xm-carousel-list li {
+        margin-right: 14px;
+        float: left;
+        width: 234px; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .goods-list li {
+      height: 300px;
+      padding-top: 39px;
+      border-top-width: 1px;
+      border-top-style: solid;
+      text-align: center;
+      background: #fafafa;
+      -webkit-transition: all .6s;
+      transition: all .6s; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .goods-list .thumb {
+      display: block;
+      width: 160px;
+      margin: 0 auto 22px; }
+      .home-hero .home-star-goods .xm-plain-box .box-bd .goods-list .thumb img {
+        width: 160px;
+        height: 160px; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .goods-list .title {
+      margin: 0 20px 3px;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .goods-list .desc {
+      height: 18px;
+      margin: 0 20px 12px;
+      font-size: 1.2rem;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      _zoom: 1;
+      color: #b0b0b0; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .goods-list .price {
+      margin: 0;
+      color: #ff6709; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-1 {
+      border-top-color: #ffac13; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-2 {
+      border-top-color: #83c44e; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-3 {
+      border-top-color: #2196f3; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-4 {
+      border-top-color: #e53935; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-5 {
+      border-top-color: #00c0a5; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-6 {
+      border-top-color: #ffac13; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-7 {
+      border-top-color: #83c44e; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-8 {
+      border-top-color: #2196f3; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-9 {
+      border-top-color: #e53935; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .rainbow-list .rainbow-item-10 {
+      border-top-color: #00c0a5; }
+    .home-hero .home-star-goods .xm-plain-box .box-bd .xm-carousel-col-5-list li {
+      float: left;
+      width: 234px; }
+
+/* page main */
+.page-main {
+  padding-top: 600px;
+  background: #f5f5f5; }
+
+/* container */
+.container:before, .container:after {
+  content: " ";
+  display: table; }
+
+.container {
+  width: 1226px;
+  margin-right: auto;
+  margin-left: auto; }
+  .container .box-hd {
+    position: relative;
+    height: 58px; }
+    .container .box-hd .title {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 200;
+      line-height: 58px;
+      color: #333; }
